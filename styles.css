@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    max-height: 1360px;
+    height: 922px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 275;
+    height: 54px;
+    font-family: 'Poppins';
+    color:  #4D4F62;
+    letter-spacing: 0.25px;
+    
+
+    
+}
+h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 12px;
+    font-family: 'Poppins';
+   
+    
+}
+h3{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 13px;
+    width: 540px;
+    opacity: 50%;
+    height: 50px;
+    padding-bottom: 64px;
+    font-family: 'Poppins';
+}
+.firstDiv{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
+}
+    
+.pirveliDiv{
+    width: 350px;
+    height: 250px;
+    border-top: solid #44D3D2 4px;
+    background-color: white;
+    border-radius: 8px;
+
+}
+.meoreDiv{
+    width: 350px;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    
+    
+    
+}
+.mesameDiv{
+    width: 350px;
+    height: 250px;
+    border-top: solid #549EF2 4px;
+    background-color: white;
+    border-radius: 8px;
+}
+.insideDiv1{
+    width: 350px;
+    height: 250px;
+    border-top: solid #EA5454 4px;
+    background-color: white;
+    border-radius: 8px;
+}
+.insideDiv2{
+    width: 350px;
+    height: 250px;
+    border-top: solid #FCAE4A 4px;
+    background-color: white;
+    border-radius: 8px;
+    
+}
+
+
+
+
+
+@media(max-width:375px){
+  
+    .container{
+        height: 1360px;
+    }
+    h2{
+        font-size: 24px;
+        font-weight: 275;
+        width: 296px;
+        height: 36px;
+        
+        
+
+    }
+    h1{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    h3{
+    
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 25px;
+        width: 311px;
+        height: 75px;
+        opacity: 50%;
+        padding-bottom: 76px;
+        letter-spacing: 0.104167px;
+    }
+    .pirveliDiv{
+        width: 311px;
+        height: 222px;
+        
+        
+    }
+    .mesameDiv{
+        width: 311px;
+        height: 222px;
+     
+    }
+    .firstDiv{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: space-around;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+        
+        
+        
+    
+    }
+    .insideDiv1{
+        width: 311px;
+        height: 222px;
+        
+    }
+    .insideDiv2{
+        width: 311px;
+        height: 222px;
+        
+    }
+    .meoreDiv{
+        width: 311px;
+        
+        display: flex;
+        
+        align-content: center;
+        align-content: space-between;
+        justify-content: center;
+        gap: 25px;
+        
+        
+    }
+    .Supervisor{
+        width: 109px;
+        height: 30px;
+        margin-top: 28px;
+        margin-left: 32px;
+        font-size: 20px;
+        font-weight: 600;
+    
+    }
+    .Supervisor2{
+        width: 254px;
+    }
+    .searchbar{
+        padding-bottom: 32px;
+        padding-right: 32px;
+       
+
+        
+        
+    }
+    .homepage{
+       
+        padding-bottom: 32px;
+        padding-right: 32px;
+    }
+    .scans{
+    padding-right: 32px;
+
+        
+    }
+}
+        
+.Supervisor{
+    width: 109px;
+    height: 30px;
+    margin-top: 27px;
+    margin-left: 32px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins';
+
+}
+.Supervisor2{
+    width: 286px;
+    height: 46px;
+    margin-left: 32px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 6px;
+    opacity:50%;
+    font-family: 'Poppins';
+}
+    
+.searchbar{
+    width: 64px;
+    height: 64px;
+    margin-left: 254px;
+    margin-top: 51px;
+    
+    
+}
+
+.teamBuilder{
+    width: 134px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 28px;
+    margin-left: 32px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+.scans{
+    width: 286px;
+    height: 46px;
+    font-size: 13px;
+    margin-top: 6px;
+    margin-left: 32px;
+    font-weight: 400;
+    color: #4D4F62;
+    Opacity:50%;
+    font-family: 'Poppins';
+    
+}
+.homepage{
+    width: 64px;
+    height: 64px;
+    margin-top: 40px;
+    margin-left: 254px;
+    font-weight: 600;
+}
+
+    
+    
+    
+    
+    
